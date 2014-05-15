@@ -3,7 +3,7 @@ Ext.application({
 
     onReady: function() {
 	var request = {
-					url: 'http://localhost/touch-2.3.1/form-simp.php',
+					url: 'http://localhost/touch-2.3.1/registration.php',
 					method: 'POST',
 
 					// commenting this out will simply send this form with normal params

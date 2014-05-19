@@ -1,5 +1,5 @@
 Ext.application({
-    name: 'bathak',
+    name: 'baithak',
 
     onReady: function() {
 	

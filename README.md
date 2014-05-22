@@ -1,7 +1,22 @@
-SunriseBaithakApp
+﻿SunriseBaithakApp
 =================
 
-This is a HTML 5 Mobile APP for Sunrise Baithak which have three function 1. Registration 2. View Schedule 3.Reminder(optional).
+This is a HTML 5 Mobile APP for Sunrise Baithak which have three function:
+1. Registration 2. View Schedule 3.Reminder(optional).
+
+1. Registration:
+
+It is a basic entry form for Baithak in the Suryodaya aasharam. It take the general information of the one, who want to come in Baithak.
+
+2. View Schedule:
+
+Schedule contains 3 months schedule of Baithak. It can be view by single date or two dates.
+
+3. Remainder(optionl)
+
+Remainder of Baithak for those who visit schedule and want remainder notifications only.
+
+About Technology and Framework:
 
 What is Sencha Touch?
 

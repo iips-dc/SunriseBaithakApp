@@ -20,7 +20,7 @@ Ext.application({
         'User'
     ],
     views: [
-        'Main','FormPanel','Schedule'
+        'Main','FormPanel','Schedule','listview'
     ],
 
     icon: {

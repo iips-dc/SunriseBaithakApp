@@ -28,7 +28,16 @@ Ext.define('Sunrise.view.Main', {
                     "and refresh to change what's rendered here."
                 ].join("")
             },
-           
+           {title: 'Schedule',
+                    iconCls: 'compose',
+					items:{ 
+					docked: 'top',
+                    xtype: 'titlebar',
+                    title: 'Baithak Schedule'},
+                   
+                   xtype: 'listview',
+                    
+			},
 			       {
 			        title: 'Registration',
                     iconCls: 'user',

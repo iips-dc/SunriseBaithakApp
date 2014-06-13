@@ -1,0 +1,52 @@
+We had followed following commands:
+1. First generate new app using sencha cmd:
+
+sencha -sdk "path to touch 2.3.1" generate app apppath appname
+
+e.g. sencha -sdk touch 2.3.1 generate app sunrise sunrise
+
+2. Now go into the project directory using
+
+cd sunrise
+
+3. Build the native app using
+
+sencha app build native
+
+4. Build the package using
+
+sencha app build package
+
+5. Create phonegap folder using
+
+sencha phonegap init com.sencha.sunrise sunrise
+
+6. Check phonegap structure
+7. Open phonegap.local.properties and edit
+
+phonegap.platform= ios android blackberry10 wp8
+
+phonegap.build.remote=true
+#username or password may be set
+
+8. Now open config.xml of sunrise/
+
+We can change app name,description and author details.
+
+9. Run the new build app using
+
+sencha app build -run native
+
+10. Go into www folder of phonegap
+
+cd phonegap/www
+
+11. Start emulator of android and run command 
+
+phonegap run android
+
+Useful links:
+
+http://www.sencha.com/blog/getting-started-with-sencha-touch-2-build-a-weather-utility-app-part-3/
+
+http://jvalentino.blogspot.in/2014/02/automating-building-native-android-and.html

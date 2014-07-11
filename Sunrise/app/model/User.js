@@ -73,14 +73,14 @@ Ext.define('Sunrise.model.User',{
 		    {
               type: 'format',
               field: 'Contact',
-              matcher: /[0-9]/,
+              matcher: /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/,
               message: 'Enter the valid phone number'
            },
 		    {
               type: 'length',
               field: 'Contact',
               min: 10,
-            message: 'Contact length must be of 10 numberso'
+            message: 'Contact length must be of 10 numbers'
            },
             {
               type: 'length',

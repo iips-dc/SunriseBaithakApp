@@ -1,0 +1,21 @@
+1.      Download sencha-touch-2.3.1a-gpl and extract into a folder.
+
+2.      Download Sencha Cmd and extract into a folder.
+
+3.      Download Ruby.
+
+4.      Install Ruby.
+
+5.      Install Sencha cmd
+
+6.      Start your web server. If using the Sencha Cmd web server,
+change directory to where you want to serve your application.
+
+7.       Open a new command line window and start the server with the
+sencha web start command. You can stop the server by typing CTRL+c or
+opening another command line and typing the sencha web stop command.
+
+8.      You can access the Sencha Cmd web server using the
+http://localhost:1841/<app_name> URL.
+
+9.      For more information about sencha: http://localhost:1841/SETUP.html

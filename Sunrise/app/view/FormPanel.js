@@ -156,8 +156,9 @@ Ext.define('Sunrise.view.FormPanel', {
 
 					                    success: function(form, response) 
 										{
-						                   var out = Ext.getCmp("output");
-						                   if(response) out.setHtml(response.message);
+						                   //var out = Ext.getCmp("output");
+						                  // if(response) out.setHtml(response.message);
+						                  Ext.Msg.alert('Thanks for registration. Your Token Information ',response.message);
 					                    },
 					                 failure: function(form, response) {
 						                    var out = Ext.getCmp("output");
@@ -168,7 +169,7 @@ Ext.define('Sunrise.view.FormPanel', {
 			 userStore.add(usr);
 			 userStore.sync();*/
 			 formObj.submit(request);
-			 Ext.Msg.alert('SUCCESS', 'Data is send Successfully , Check your mail');
+			 //Ext.Msg.alert('SUCCESS', 'Data is send Successfully , Check your mail');
 		}
  
 	}

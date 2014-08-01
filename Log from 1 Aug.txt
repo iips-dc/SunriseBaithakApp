@@ -1,0 +1,8 @@
+Date: 1 Aug,2014
+Akanksha-Tweeter widget has been done.
+facebook widget hit and try is in progrss.
+Designing of front/welcome page.
+Komal-Tweeter API has been implemented.
+Converting tweets from JSON to accessible format.
+Bedi-Tweeter API has been implemented.
+Working on Facebook API.
